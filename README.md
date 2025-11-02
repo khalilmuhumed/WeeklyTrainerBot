@@ -21,19 +21,15 @@ The goal is to demonstrate **data handling**, **automation flow**, and **logging
 ## 📂 Project Structure
 
 WeeklyTrainerBot/
-│
-├── data/
-│ ├── recipients.xlsx # List of email recipients
-│ └── training_schedule.pdf # Weekly training plan
-│
-├── output/ # Generated logs and reports
-│
-├── tasks.robot # Main robot logic
-├── conda.yaml # Environment configuration
-├── robot.yaml # Robot definition (entry point)
-├── README.md # Project documentation
-└── .gitignore # Ignored files
-
+tasks.robot # Main robot logic
+conda.yaml # Environment configuration
+robot.yaml # Robot definition (entry point)
+README.md # Project documentation
+.gitignore # Ignored files
+data/
+recipients.xlsx # List of email recipients
+training_schedule.pdf # Weekly training plan
+output/ # Generated logs and reports
 ---
 
 ## ⚙️ Requirements
