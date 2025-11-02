@@ -1,0 +1,14 @@
+tasks:
+  Weekly Trainer Bot:
+    shell: python -m robocorp.tasks run tasks.py
+
+condaConfigFile: conda.yaml
+artifactsDir: output
+
+ignoreFiles:
+  - .git/**
+  - output/**
+  - '**/__pycache__/**'
+  - '**/*.pyc'
+  - .DS_Store
+  - venv/**
