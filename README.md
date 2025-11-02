@@ -34,9 +34,6 @@ WeeklyTrainerBot/
 ├── README.md # Project documentation
 └── .gitignore # Ignored files
 
-yaml
-Kopioi koodi
-
 ---
 
 ## ⚙️ Requirements
@@ -69,8 +66,6 @@ Logs every step to output/log.txt
 Checks for missing files and notifies if human action is needed
 
 📊 Example Output
-rust
-Kopioi koodi
 🚀 Starting WeeklyTrainerBot for week 44
 📄 Recipients loaded: ['test1@example.com', 'test2@example.com', 'test3@example.com']
 📎 PDF found for week 44: data/training_schedule.pdf
